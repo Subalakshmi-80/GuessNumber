@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(243, 219, 219);
+}
+.container{
+    text-align: center;
+    margin-top: 240px;
+    margin-left: 550px;
+    background-color:rgb(230, 122, 140);
+    width:450px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 20px rgb(134, 134, 134)
+    
+}
+
+#inputBox{
+    
+    padding: 10px;
+}
+#inputBox:focus{
+    outline:none;
+}
+.btn1{
+    padding: 10px 20px;
+    background-color:lavender;
+    border:none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  color:rgb(55, 117, 233)
+
+}
+.btn1:hover{
+    background-color:lavenderblush
+}
+#result{
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bold;
+}
+#guess{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 500;
+}
